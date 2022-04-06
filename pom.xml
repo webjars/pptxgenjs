@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>pptxgenjs</artifactId>
-    <version>3.9.0</version>
+    <version>3.9.1-SNAPSHOT</version>
     <name>PptxGenJS</name>
     <description>WebJar for PptxGenJS</description>
     <url>http://webjars.org</url>
@@ -42,7 +42,7 @@
         <url>http://github.com/webjars/pptxgenjs</url>
         <connection>scm:git:https://github.com/webjars/pptxgenjs.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/pptxgenjs.git</developerConnection>
-        <tag>pptxgenjs-3.9.0</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <build>
