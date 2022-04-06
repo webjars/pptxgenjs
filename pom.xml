@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>pptxgenjs</artifactId>
-    <version>3.9.0-SNAPSHOT</version>
+    <version>3.9.0</version>
     <name>PptxGenJS</name>
     <description>WebJar for PptxGenJS</description>
     <url>http://webjars.org</url>
@@ -42,7 +42,7 @@
         <url>http://github.com/webjars/pptxgenjs</url>
         <connection>scm:git:https://github.com/webjars/pptxgenjs.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/pptxgenjs.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>pptxgenjs-3.9.0</tag>
     </scm>
     
     <build>
@@ -78,13 +78,13 @@
                                 <get src="${upstream.url}/pptxgen.es.js" dest="${destDir}" />
                                 <get src="${upstream.url}/pptxgen.min.js" dest="${destDir}" />
                                 <get src="${upstream.url}/pptxgen.min.js.map" dest="${destDir}" />
-                                <!--echo message="download archive"/>
-                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip"/>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <!--echo message="download archive" />
+                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}"/>
+                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}" />
                                 </move-->
                             </target>
                         </configuration>
